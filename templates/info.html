@@ -1,0 +1,41 @@
+<!DocType html>
+<html>
+<head>
+<title> The Application Information</title>
+<meta charset="utf-8">
+<meta name ="viewport" content="width=device-width", initial scale = 1.0>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript" async="true"></script>
+<link rel="stylesheet" type="text/css" href="./static/landing.css">
+<style>
+h1 {text-align: center;}
+p {text-align: center;}
+h3 {text-align: center;}
+</style>
+</head>
+<body>
+    <div class="Jumbotron">
+        <h1 style=text>Gilbert's Decisions</h1>
+        <b>
+        <h3>Do you count punctuation or only words?</h3></b>
+        <p>I only count words. This decision was made because it would yield the fastest results for us to truly differentiate language.</p>
+        <br>
+        <h3>Which words should matter in similarity comparison?</h3>
+        <p>This application removes common stop words, so that only the differences can be analyzed. </p>
+         <br>
+        <h3>Do you care about word ordering?</h3>
+         <p>My application does not care about the ordering of words. </p>
+          <br>
+        <h3>What metric will you use to assign numerical value to similarity?</h3>
+         <p>
+            The metric used for text similarity is the equation: 
+            # of unique matches / total unique words in both samples
+        </p>
+         <br>
+        <h3>What are the data structures and algorithms you used to complete the task?</h3>
+        <p>Dictionaries, lists, and sets were employed. The sets were used for comparing unique words between two samples and are helpful because they execute better than lists. </p>
+        </b>
+        <button class="btn btn-lg btn-primary btn-block" a href="/">Back</button>
+    </div>
+</body>
+</html>
